@@ -177,7 +177,3 @@ main {
     visibility: visible;
     background-color: var(--light);
 }
-
-.test-class {
-    font-size: 2rem;
-}
