@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=" UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Accordion (accessible, single item)</title>
+  <link rel="stylesheet" href="accordion.css">
+  <script src="accordion-single.js" defer></script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1>Accessible Accordion (Single Item)</h1>
+      <nav>
+        <ul role="list">
+          <li><a href="index.html" aria-current="page">Single</a></li>
+          <li><a href="accordion-multiple.html">Multiple</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="accordion">
+        <h2><button class="accordion__button" data-accordion-button>
+            Title
+          </button>
+        </h2>
+
+        <div class="accordion__content open" data-accordion-content>
+          <h3 data-accordion-heading>Content</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
+            lectus in sapien tempus maximus. Aenean dignissim dui sem, non
+            bibendum felis dapibus eu. Curabitur semper augue ut odio lobortis
+            pretium. Cras est metus, feugiat sit amet felis ac, blandit hendrerit
+            velit. Quisque auctor elit at ornare tincidunt. Nunc scelerisque
+            ligula in turpis gravida, sed egestas purus tincidunt. In sapien est,
+            congue id ex quis, malesuada elementum nulla.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class=" footer">
+      <a href="https://github.com/chrisnajman/accessible-accordions" target="_blank" rel="noopener noreferrer">GitHub
+        Repository</a>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Accordion (accessible, multiple items)</title>
+  <link rel="stylesheet" href="accordion.css">
+  <script src="accordion-multiple.js" defer></script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1>Accessible Accordion (Multiple Items)</h1>
+      <nav>
+        <ul role="list">
+          <li><a href="index.html">Single</a></li>
+          <li><a href="accordion-multiple.html" aria-current="page">Multiple</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="accordion">
+        <h2>
+          <button id="accordion-open-1" class="accordion__button" data-accordion-button>
+            Title 1 ...
+          </button>
+        </h2>
+        <div id="accordion-content-1" class="accordion__content open" data-accordion-content">
+          <h3>Content 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
+            lectus in sapien tempus maximus. Aenean dignissim dui sem, non
+            bibendum felis dapibus eu. Curabitur semper augue ut odio lobortis
+            pretium. Cras est metus, feugiat sit amet felis ac, blandit hendrerit
+            velit. Quisque auctor elit at ornare tincidunt. Nunc scelerisque
+            ligula in turpis gravida, sed egestas purus tincidunt. In sapien est,
+            congue id ex quis, malesuada elementum nulla
+          </p>
+        </div>
+        <h2>
+          <button id="accordion-open-2" class="accordion__button" data-accordion-button>
+            Title 2 ...
+          </button>
+        </h2>
+        <div id="accordion-content-2" class="accordion__content open" data-accordion-content">
+          <h3>Content 2</h3>
+          <p>
+            Etiam laoreet hendrerit est non vulputate. Quisque lacinia justo leo,
+            at pretium nulla dapibus nec. Integer nec nisl nec est viverra commodo
+            a quis est. Fusce cursus sagittis erat. In tristique purus a velit
+            aliquet, a gravida nulla suscipit. Aliquam ligula risus, malesuada ut
+            cursus ut, vehicula vel mauris. Nam dui neque, fringilla vel pharetra
+            sit amet, porttitor a lacus. Morbi elementum odio ex, eu tincidunt est
+            efficitur in. Praesent non lectus ipsum. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus.
+          </p>
+        </div>
+        <h2>
+          <button id="accordion-open-3" class="accordion__button" data-accordion-button>
+            Title 3 ...
+          </button>
+        </h2>
+        <div id="accordion-content-3" class="accordion__content open" data-accordion-content">
+          <h3>Content 3</h3>
+          <p>
+            Mauris in porta lacus, eget imperdiet nibh. Sed porttitor bibendum
+            ornare. Proin dolor ante, varius eget laoreet nec, mattis in lorem.
+            Sed molestie orci quis nisl volutpat, tempus pharetra sapien
+            dignissim. Ut ornare, mauris non accumsan tempus, purus urna
+            consectetur leo, ac faucibus velit nibh nec magna. Nulla id porttitor
+            augue. Fusce consequat massa sit amet tellus vestibulum, et porta
+            augue vulputate. Maecenas faucibus magna sit amet placerat semper.
+            Curabitur a volutpat turpis. Donec nisi dolor, posuere vel lorem sit
+            amet, vehicula congue erat. Donec sit amet lacinia sem. Phasellus quis
+            erat iaculis, consequat velit at, sodales ex. Sed id mattis arcu, id
+            interdum nunc. Aliquam erat volutpat. Nunc feugiat a leo ac feugiat.
+            Nullam leo ante, convallis id feugiat eget, congue non velit.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class=" footer">
+      <a href="https://github.com/chrisnajman/accessible-accordions" target="_blank" rel="noopener noreferrer">GitHub
+        Repository</a>
+    </footer>
+  </div>
+</body>
+
+</html>
